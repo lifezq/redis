@@ -1,3 +1,8 @@
+[![Build status](https://img.shields.io/appveyor/build/lifezq/redis.svg)](https://ci.appveyor.com/project/lifezq/redis)
+[![Coverage Status](https://img.shields.io/coveralls/lifezq/redis.svg?style=flat-square)](https://coveralls.io/github/lifezq/redis?branch=master)
+[![License](http://img.shields.io/badge/license-apache-blue.svg?style=flat-square)](https://raw.githubusercontent.com/lifezq/redis/master/LICENSE)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/lifezq/redis)
+
 # Redis Client Wrapper
 
 这是一个基于 `github.com/redis/go-redis/v9` 封装的 Redis 客户端库，旨在简化 Redis 的使用，提供统一的 API 接口支持单机、集群和哨兵模式，并内置了灵活的 Hook 机制。
